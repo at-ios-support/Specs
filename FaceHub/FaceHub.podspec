@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '8.0'
     s.requires_arc          = true
 
-    s.source                = { :http => 'https://github.com/at-ios-support/Specs/raw/master/FaceHub/FaceHub-0.95.zip' }
+    s.source                = { :http => "https://github.com/at-ios-support/Specs/raw/facehub/#{s.version}/FaceHub/FaceHub.zip" }
     s.libraries             = 'c++'
     s.frameworks            = 'Foundation', 'UIKit', 'AudioToolbox', 'AVFoundation', 'CoreMedia', 'VideoToolbox', 'GLKit', 'SystemConfiguration', 'FaceHub'
     s.xcconfig              = { 'OTHER_LDFLAGS' => '-ObjC' }
