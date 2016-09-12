@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name                  = 'FaceHub'
-    s.version               = '0.95'
+    s.version               = '0.96'
     s.summary               = 'A cocoapod contains the FaceHub framework.'
     s.homepage              = 'http://asiantech.vn'
     s.license               = { :type => 'MIT', :file => 'LICENSE' }
