@@ -1,15 +1,9 @@
 Pod::Spec.new do |s|
 
-  s.name         = "SwiftLint"
-  s.version      = "0.12.0"
-  s.summary      = "A tool to enforce Swift style and conventions."
-
-  s.description  = <<-DESC
-                   A tool to enforce Swift style and conventions, loosely based on GitHub's Swift Style Guide.
-                   SwiftLint hooks into Clang and SourceKit to use the AST representation of your source files
-                   for more accurate results.
-                   DESC
-
+  s.name         = 'SwiftLint'
+  s.version      = '0.12.0'
+  s.summary      = 'A tool to enforce Swift style and conventions.'
+  s.description  = 'A tool to enforce Swift style and conventions, loosely based on GitHubs Swift Style Guide. SwiftLint hooks into Clang and SourceKit to use the AST representation of your source files for more accurate results.'
   s.homepage     = "https://github.com/realm/SwiftLint"
   s.license      = "MIT"
   s.author       = { "Realm" => "help@realm.io" }
