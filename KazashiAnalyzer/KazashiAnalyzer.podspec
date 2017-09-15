@@ -15,8 +15,8 @@ Pod::Spec.new do |s|
     s.frameworks            = 'AudioToolbox', 'Foundation', 'UIKit','CoreVideo', 'CoreMedia','AVFoundation'
     s.xcconfig              = { 'OTHER_LDFLAGS' => '-ObjC' }
 
-    s.vendored_libraries    = 'KazashiAnalyzer/lib/libKzshAnalyticalEngine.a'
-    s.source_files          = 'KazashiAnalyzer/lib/KzshAnalyzer.h'
+    s.vendored_libraries    = 'lib/libKzshAnalyticalEngine.a'
+    s.source_files          = 'lib/KzshAnalyzer.h'
     # s.vendored_frameworks   = 'KazashiAnalyzer'
-    s.resources             = 'KazashiAnalyzer/sources/*.*'
+    s.resources             = 'sources/*.*'
 end
