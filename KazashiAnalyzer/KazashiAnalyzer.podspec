@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name                  = 'KazashiAnalyzer'
-    s.version               = '1.0.6'
+    s.version               = '1.0.7'
     s.summary               = 'A cocoapod contains the KazashiAnalyzer framework.'
     s.homepage              = 'http://asiantech.vn'
     s.license               = { :type => 'MIT', :file => 'LICENSE' }
