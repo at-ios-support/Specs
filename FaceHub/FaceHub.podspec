@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
     s.name                  = 'FaceHub'
-    s.version               = '1.28'
+    s.version               = '1.35'
     s.summary               = 'A cocoapod contains the FaceHub framework.'
     s.homepage              = 'http://asiantech.vn'
     s.license               = { :type => 'MIT', :file => 'LICENSE' }
-    s.authors               = { 'DaoNV' => 'daonv@asiantech.vn' }
+    s.authors               = { 'LnC' => 'truong.nguyen@asiantech.vn' }
 
     s.platform              = :ios
     s.ios.deployment_target = '8.0'
