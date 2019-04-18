@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name                  = 'KnaviKazashiAnalyzer'
-    s.version               = '1.0.0'
+    s.version               = '1.4.1'
     s.summary               = 'A cocoapod contains the Knavi KazashiAnalyzer framework for health scan.'
     s.homepage              = 'http://asiantech.vn'
     s.license               = { :type => 'MIT', :file => 'LICENSE' }
