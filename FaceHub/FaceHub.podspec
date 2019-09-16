@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name                  = 'FaceHub'
-    s.version               = '1.44'
+    s.version               = '2.13'
     s.summary               = 'A cocoapod contains the FaceHub framework.'
     s.homepage              = 'http://asiantech.vn'
     s.license               = { :type => 'MIT', :file => 'LICENSE' }
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
 
     s.source                = { :http => "https://github.com/at-ios-support/Specs/raw/facehub/#{s.version}/FaceHub/FaceHub.zip" }
     s.libraries             = 'c++'
-    s.frameworks            = 'Foundation', 'UIKit', 'AudioToolbox', 'AVFoundation', 'CoreMedia', 'VideoToolbox', 'GLKit', 'SystemConfiguration', 'Photos', 'FaceHub'
+    s.frameworks            = 'Foundation', 'UIKit', 'AudioToolbox', 'AVFoundation', 'CoreMedia', 'VideoToolbox', 'GLKit', 'SystemConfiguration', 'Photos', 'CoreTelephony', 'MobileCoreServices', 'FaceHub', 'WebRTC'
     s.xcconfig              = { 'OTHER_LDFLAGS' => '-ObjC' }
     s.vendored_frameworks   = 'FaceHub.framework'
     s.resource              = 'FaceHubResources.bundle'
