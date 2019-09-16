@@ -12,8 +12,8 @@ Pod::Spec.new do |s|
 
     s.source                = { :http => "https://github.com/at-ios-support/Specs/raw/facehub/#{s.version}/FaceHub/FaceHub.zip" }
     s.libraries             = 'c++'
-    s.frameworks            = 'Foundation', 'UIKit', 'AudioToolbox', 'AVFoundation', 'CoreMedia', 'VideoToolbox', 'GLKit', 'SystemConfiguration', 'Photos', 'CoreTelephony', 'MobileCoreServices', 'FaceHub', 'WebRTC'
+    s.frameworks            = 'Foundation', 'UIKit', 'AudioToolbox', 'AVFoundation', 'CoreMedia', 'VideoToolbox', 'GLKit', 'SystemConfiguration', 'Photos', 'CoreTelephony', 'MobileCoreServices', 'FaceHub'
     s.xcconfig              = { 'OTHER_LDFLAGS' => '-ObjC' }
-    s.vendored_frameworks   = 'FaceHub.framework'
+    s.vendored_frameworks   = 'FaceHub.framework', 'WebRTC.framework'
     s.resource              = 'FaceHubResources.bundle'
 end
